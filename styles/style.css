@@ -208,6 +208,20 @@ ol {
   text-decoration: none;
 }
 
+.content__card-link:active {
+  text-decoration: none;
+  background-color: #545050;
+}
+
+.content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
 .content__video-card {
   display: flex;
 }
