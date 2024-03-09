@@ -200,9 +200,9 @@ ol {
 }
 
 .content__card-link {
-  outline: none;
   display: block;
   margin: 3px;
+  outline: none;
   color: #fff;
   text-decoration: none;
 }
@@ -257,11 +257,10 @@ ol {
 .content__card-link:hover,
 .button:hover {
   text-decoration: underline;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .button {
-  /* вот же общий класс для кнопок*/
   border: 1px solid #fff;
   color: inherit;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -276,14 +275,14 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   padding: 6px 73px;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .more-button {
   width: 100%;
   margin-top: 30px;
   padding: 6px 0;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .button:active {
